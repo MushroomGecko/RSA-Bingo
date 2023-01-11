@@ -106,7 +106,7 @@ def PollardP1MPZMulti(num_processes, size):
 if __name__ == "__main__":
     # Required command line arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--rsa-size", type=int, required=True, help="Number to factor")
+    parser.add_argument("--rsa-size", type=int, required=True, help="RSA size you want to test")
     parser.add_argument("--processes", type=int, required=False, default=1, help="Number of process to run")
     parser.add_argument("--do-rho", type=int, required=False, default=1, help="Activate Pollard's Rho. 0 to deactivate, 1 to activate (defaulted to 1)")
     parser.add_argument("--do-p1", type=int, required=False, default=1, help="Activate Pollard's P-1. 0 to deactivate, 1 to activate (defaulted to 1)")
