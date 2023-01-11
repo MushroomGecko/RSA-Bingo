@@ -22,8 +22,8 @@ if __name__ == "__main__":
     board = open(args.board_name + ".txt", 'w')
     boardAns = open(args.board_name + "AnswerKey.txt", 'w')
 
-    board.write(args.board_name + '\n' + '\n')
-    boardAns.write(args.board_name + " Answer Key" + '\n' + '\n')
+    board.write(args.board_name + " - (RSA Size of " + str(args.rsa_size) + ")" + '\n' + '\n')
+    boardAns.write(args.board_name + " Answer Key" + " - (RSA Size of " + str(args.rsa_size) + ")" + '\n' + '\n')
 
     for c in bingo_chars:
         spacers = 10
