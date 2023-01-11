@@ -1,0 +1,135 @@
+SampleBoard3 - (RSA Size of 128)
+
+########## B ##########
+Position On Board: B,1
+Encrypted Number: b"K\xa7\x9f^\x0c\xf15\xb0'q\x94\xc7\xc2\x8b\x99\xd3"
+n: 257893439093204083671896446570915144939
+e: 65537
+
+Position On Board: B,2
+Encrypted Number: b'Y\x8aC\xa9BH\x8c\x0f\xa4\x88\x18\xd0\xb0\xad\xb4\xa9'
+n: 204417059150757798219572570323330917353
+e: 65537
+
+Position On Board: B,3
+Encrypted Number: b'\x0f\x1aL\x05\x91\xbc\xae`+\x17\x84\xe2)\xdev1'
+n: 170371750495278764502849387617558323217
+e: 65537
+
+Position On Board: B,4
+Encrypted Number: b'\x1b\xc2\xfb\x9c/\x0cAWd\x9dd\xbcu\x82\xcda'
+n: 212931736724154051193974697648818398317
+e: 65537
+
+Position On Board: B,5
+Encrypted Number: b"^\xdc\xcb'\xf4\x96RR\x16\xe0\xbb\xdf@e\xb4\x84"
+n: 261484339362001062675417301613316204253
+e: 65537
+
+
+########## I ##########
+Position On Board: I,1
+Encrypted Number: b',\xc1\xf3\x03#\xd9-\x8f\xc4\xac\x93k\x8e\xc5\xfbA'
+n: 218280760303002291113493821696218378531
+e: 65537
+
+Position On Board: I,2
+Encrypted Number: b'\x90\xe0\xa3$\xdb1\xe5\xe0%\xbe\xddcM\x87\xf7,'
+n: 234490427804115667476215597699700772213
+e: 65537
+
+Position On Board: I,3
+Encrypted Number: b';\r\x947\x11(\xa4#\xddD\x17\x18y\x19\xc5\xdf'
+n: 258794109934784104296428755137456091009
+e: 65537
+
+Position On Board: I,4
+Encrypted Number: b'!$*8\x15\x9a\x91\xed|\x153]\x12\xab\xae\x7f'
+n: 192289434662935115879476812266684448269
+e: 65537
+
+Position On Board: I,5
+Encrypted Number: b'c\x84\xe3v\xc6\xb78\xc3\xb0$\xbe\x0cc\xf9\xb9i'
+n: 185462239387328630310669788399372654801
+e: 65537
+
+
+########## N ##########
+Position On Board: N,1
+Encrypted Number: b'\xa1\x9b\xebF\xd2\x07\xae\x9b\n`\xc1\x92\xfd\x8b\xe4Q'
+n: 248633069881136051400544310132855820313
+e: 65537
+
+Position On Board: N,2
+Encrypted Number: b'N\xb5\r\xfb|V\x03\xf1_;\xe07\xf0\xaa,v'
+n: 175154949910605558588626663346801813661
+e: 65537
+
+Position On Board: N,3
+FREE SPACE
+
+Position On Board: N,4
+Encrypted Number: b'GW\x89\xaa\x94C\x91\x8e{\x9a\xc8G\x9a\xc7+\xce'
+n: 268284339102535853658736298661626981951
+e: 65537
+
+Position On Board: N,5
+Encrypted Number: b'S\xe3h\xeb\xc7}q\xee\xabJ1\xb4\xfeE@\x01'
+n: 235478947488645263655632382820026389563
+e: 65537
+
+
+########## G ##########
+Position On Board: G,1
+Encrypted Number: b'r\xff\xfdV\xc8.\x86{-\xaf\xfe\xba\xe7Q\x06\n'
+n: 238457995684878734558108045453080034891
+e: 65537
+
+Position On Board: G,2
+Encrypted Number: b'\x02\x93\x86\x9a\xfcV>\xb5\x97\xe8\xb8\xa6J\xe1\xe3\x19'
+n: 243390286379035970003373967009297871851
+e: 65537
+
+Position On Board: G,3
+Encrypted Number: b';d\xab\xf9?\x11\x05\x92D\x89i\xe9^\xd4V_'
+n: 174487550059487812208769009577937064661
+e: 65537
+
+Position On Board: G,4
+Encrypted Number: b'L\x07\xcb\xb7\x12\x0f\xeb\x9d\x16^iaCy\xffj'
+n: 213955821171868455446104681467108569201
+e: 65537
+
+Position On Board: G,5
+Encrypted Number: b'\x99\x968i\xfd`\xa1\xd1O\xe5-]\x16\xee}4'
+n: 240900369883493943751738145353771340197
+e: 65537
+
+
+########## O ##########
+Position On Board: O,1
+Encrypted Number: b'&@/L\xe6\x98\xbc\xac\xbc\x0ec\xd7\xd9l\x0c\xe1'
+n: 223516812936874653913375364231611940297
+e: 65537
+
+Position On Board: O,2
+Encrypted Number: b'}\x87\x0fn\x81\xd6e\xb4:5\xb9\xbd\xdd\x8d\xb9D'
+n: 194449140138673505651982593282292126617
+e: 65537
+
+Position On Board: O,3
+Encrypted Number: b'Hg\x9dr\xdbX\xf9\x7f\x1b\xe7H>\xfc\xb2@\x84'
+n: 174697866965428522562745159214644817367
+e: 65537
+
+Position On Board: O,4
+Encrypted Number: b'(e\xa4\xec\xcf"\x91\xa1@S\xbcW\xc7\'x\xe2'
+n: 196415190133674530902667430774151257089
+e: 65537
+
+Position On Board: O,5
+Encrypted Number: b'ph\xbez3\x0c\xfaG@\xe9^XI\xaa\x8f6'
+n: 239713860935949828038450114176311723077
+e: 65537
+
+

@@ -1,0 +1,135 @@
+SampleBoard4 - (RSA Size of 256)
+
+########## B ##########
+Position On Board: B,1
+Encrypted Number: b'\x19\xd3\xa02,~\xd2\xb3\xee \xe6\xffK4\xac\x1fc\xa1\xce\t\xa4\xd5\xb55\xfbspx\xff\xba\xc8\x10'
+n: 90910074650154013757792692544797537650700666284243410735529012732243868570451
+e: 65537
+
+Position On Board: B,2
+Encrypted Number: b'&+\xf0\x18@[\xf9\xec\xb3@g\xa9\xf0\x87z\x1e\x16\xcd\xaa\xde\x7f\xf9?\xcd5\xb7D!;\x92\xd9\x9a'
+n: 67193892616239108799986275702054704981466835309442283539212644714337570604541
+e: 65537
+
+Position On Board: B,3
+Encrypted Number: b'W\x0f\x13\xd2 \xee\x97\xa7G\t\xb3\xed\xa0fqEU\x95,\xb4J\xb5\xcc,DDT\x8a\xbdJ\x93\xbb'
+n: 68154346820847363812426936783459011538841339426434561111178504496292313675151
+e: 65537
+
+Position On Board: B,4
+Encrypted Number: b'\x97\x1b\x0bH\x98\\-\x15\x84!\x0c\xf3KD\xaf\xfd\x90\x9et\x05(]\xe1\xf6B`\x04N\xf2\xec3\xc8'
+n: 68642703734247446617647203623792933299333018687907779927938158227765355838651
+e: 65537
+
+Position On Board: B,5
+Encrypted Number: b"\x83\xd6\xa5\x03s\x08R\xad\xb8\x19Kr2\x03\xcd\x0f\x16s*\xd9w'\xa9Wt%\x08&\xaa>\x93\x80"
+n: 61959272582333086541801795775204336728641413617802927581643375230141686934267
+e: 65537
+
+
+########## I ##########
+Position On Board: I,1
+Encrypted Number: b'\x1bEN>u(\x0e\xe0^\xd7\x89\xaf.\xf6@\x03\xa9qD\xeb\xc6\x03&K\xa5\x01\x0eh\x7f{\x9f\x13'
+n: 82749291133009527116482782151863915882432148427481106157850018056077813222297
+e: 65537
+
+Position On Board: I,2
+Encrypted Number: b'jk\t(\x85\xc7\xb1\xb2\xed9^\x04\x1e\x95\x96\xad2\xac\x7f\ngw\x0b\x11\xaeu4#\xf1\xf5\xc7\xcb'
+n: 62482812031459925162062017075509993455698509677604908121522002155853186269281
+e: 65537
+
+Position On Board: I,3
+Encrypted Number: b'P\x8d\xc3\xd2,p\x11o\xd2\xac\x8fc\xbd\xd0Y`E5\x1b\x93M\xd7\xe7\xe6fW\x9eP\x07\xe7\xe9\xcd'
+n: 60407243199691781393173555600637292171586432272529724748368869513539113174563
+e: 65537
+
+Position On Board: I,4
+Encrypted Number: b'B\x85xh\x10t\xeb\x96\x1a\\@\xb4\x17\x9d\x85\xb5C\xd7\x0bL\xc5\x1c\x06\x11b\xe9\x94l\xe9\t\t\x8b'
+n: 83338248033443048245673595690973706909607910339945246283688035964739731753001
+e: 65537
+
+Position On Board: I,5
+Encrypted Number: b'\x87\xc1_\x07\xea\xf2\xa0\xafG/M\xba\x89\x97\xae\xc1*q\xe4\x96\xf4\xa1\xd83\xc0b\xf5C\x1a)^\x12'
+n: 66953790359434883026679268399744240733757748308537177510370443648661294138833
+e: 65537
+
+
+########## N ##########
+Position On Board: N,1
+Encrypted Number: b'\x9bj\xbe\x92\xe3A\xf9A<\x1223\xe1#\x84T]\xdd\xe7\xf2\xaaD\xfa\x81\xd3\xad\xdd\xdeEp\xba\xdf'
+n: 80957551000180523766400630682694813113611244555399886564776461428227873055317
+e: 65537
+
+Position On Board: N,2
+Encrypted Number: b'O\x01\x05\x04\xe8\x01ZT\xe1\xcc\xa2\xd1W\xda\x83\x8f$l\xfbI[o\xad\xc3#\xc5\x8c[\xed-)\x99'
+n: 89215869973612519194827117169085146290461702930318196840217589277511584853539
+e: 65537
+
+Position On Board: N,3
+FREE SPACE
+
+Position On Board: N,4
+Encrypted Number: b'T$c\x8b\x8c[\xad8\xe9Cm\xaaH\xb4\xc0\xdc\xc7\xe5\xafl\x19xk3\x8au\xed\xc7 h[\x00'
+n: 59235514009246377615671006049055193623715989012089655837110284063125915155347
+e: 65537
+
+Position On Board: N,5
+Encrypted Number: b'vVS\xb7\xbbs6\xeb[?\xfbz\xd3\xa8\xc4\xf5\x1e\x08\xf7/\x02\x08R\x1e\x92\x12\xee|\xa2\xa3B\xea'
+n: 66099018794232844177808476364256118997188204589267552572718207724697780654561
+e: 65537
+
+
+########## G ##########
+Position On Board: G,1
+Encrypted Number: b'\x81\xf7\xa6\xa8t\xe9e\xf3J\xdc\xe9\xfe\xfc\x9a\xcck\x86.v\xad\xa3\xc5\xe8>\xad\x96\xc2.\xb0\x0c\xc5\x82'
+n: 61217998607818374320601502816506847979244244900405130630308672346275322938937
+e: 65537
+
+Position On Board: G,2
+Encrypted Number: b'f4\xb4r\xad`q\xb4\xa0\x87\x15\xf3\xd0\x84\xa4\x8c\x0f\xc1\x7fh,i\x87^E\xfc\xd3`\x13\xff\xa1\x91'
+n: 66343564694246109203783400392812186491859219646181011431451111430961285324217
+e: 65537
+
+Position On Board: G,3
+Encrypted Number: b'\r\x1a.\xb4\x03\x03\xc0\x80\xe3\xd0\xa2)\x9f\xeb!\x97\xc7\xa1\xba\x05\xddO\x1f(\xdb\x91m\xf2\xc8>b\xe3'
+n: 60902573366555496135079777167764890631835761581938920259354638433939249905021
+e: 65537
+
+Position On Board: G,4
+Encrypted Number: b'(\x89jg\x91\x18K\xcfZ\x166^.&\xbdCQ\xbaL\xc1v2\x8dc\xa3\x13\x14\xb0\x1a\x16\x8c\x9c'
+n: 65528981826481225645398875155698069086950571190604803904610287620879879785899
+e: 65537
+
+Position On Board: G,5
+Encrypted Number: b'(\x0en;\x1b\xe8*\xf4\xe4{q0Ws$\x85XO5E\xa5}u\xec\x01\t\xb8\x9b\x80\xde\x85\xf2'
+n: 69135184076349787324214434473212337501273847359713600397367977343261040389489
+e: 65537
+
+
+########## O ##########
+Position On Board: O,1
+Encrypted Number: b'\x01\xa3(\x10\xeb\x90}\xbe/\x04\x90\xca\xc5\xbb\xb0\xd5\x9eC\xc3NB\xbd.\x91\x16\x95F#\x93i\xf8\x14'
+n: 72616395726214505977837647768295510078130069794837740233987288977132740351019
+e: 65537
+
+Position On Board: O,2
+Encrypted Number: b'U\xdax\x90\xdc`\xd8\xce\x90M|\x00\x8a\x9a\xc7\xe0\xd6\xddPj/xw\xf9\x1f\xd0\xac:.}\xc8\x89'
+n: 62033679899790179752414596523165983272608789226849229080280315329981591060243
+e: 65537
+
+Position On Board: O,3
+Encrypted Number: b'1\x14\x13\xd7\x9d\x00\xbc\x0b\x06\xb2\x99\xb8~\x17\xc6\xa4\x1ec(\xf8\xe6\t\xcb\t\xa8\xe1{\xc85(\x89\x0f'
+n: 71218078940710343132966282007850306691411446649330537488783571763072730640429
+e: 65537
+
+Position On Board: O,4
+Encrypted Number: b"z\xdd\xc7]\xc0S\xc5\x98@SUW\x9dFuH\xd6z\x0c\x16k'&D\xff\xfd\xd1\xa5\xb3\xb4\x99\x88"
+n: 69355880110615434973946572401760617286243464325675839987790031905362970751159
+e: 65537
+
+Position On Board: O,5
+Encrypted Number: b'"\x80\xc7\xb6\xb49\x03\x96\'\xb4\xd9\xe0\xed!\xaa\x07U\xb4\x848\xeb^\xb7\x9a\x07#\x05w\x1b\xd7\xa4\x9d'
+n: 78281734372421118209651583211256228778855323079300608830118229927660418655801
+e: 65537
+
+
