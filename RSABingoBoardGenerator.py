@@ -4,6 +4,7 @@
 import rsa
 import random
 import argparse
+import os
 
 if __name__ == "__main__":
 
@@ -13,17 +14,32 @@ if __name__ == "__main__":
     parser.add_argument("--rsa-size", type=int, required=True, help="RSA encryption size")
     args = parser.parse_args()
 
+    bingo_range = [80, 90, 100, 110, 120]
     bingo_chars = ['B', 'I', 'N', 'G', 'O']
     board_size = 5
-    used_nums = []
+    used_nums = [1]
     lower = 1
     upper = 15
 
-    board = open(args.board_name + ".txt", 'w')
-    boardAns = open(args.board_name + "AnswerKey.txt", 'w')
+    board_path_base = os.getcwd()+"\\"+ "RSABingoBoards" + "\\" + "Boards" + "\\" + args.board_name
+    board_path_ans = os.getcwd()+"\\"+ "RSABingoBoards" + "\\" + "Answer Keys" + "\\" + args.board_name
+    if not os.path.isdir(os.getcwd()+"\\"+ "RSABingoBoards"):
+        os.mkdir(os.getcwd()+"\\"+ "RSABingoBoards")
+    if not os.path.isdir(os.getcwd()+"\\"+ "RSABingoBoards" + "\\" + "Boards"):
+        os.mkdir(os.getcwd()+"\\"+ "RSABingoBoards" + "\\" + "Boards")
+    if not os.path.isdir(os.getcwd()+"\\"+ "RSABingoBoards" + "\\" + "Answer Keys"):
+        os.mkdir(os.getcwd()+"\\"+ "RSABingoBoards" + "\\" + "Answer Keys")
+    if not os.path.isdir(board_path_base):
+        os.mkdir(board_path_base)
+    if not os.path.isdir(board_path_ans):
+        os.mkdir(board_path_ans)
 
-    board.write(args.board_name + " - (RSA Size of " + str(args.rsa_size) + ")" + '\n' + '\n')
-    boardAns.write(args.board_name + " Answer Key" + " - (RSA Size of " + str(args.rsa_size) + ")" + '\n' + '\n')
+
+    board = open(board_path_base + "\\"  + args.board_name + ".txt", 'w')
+    boardAns = open(board_path_ans + "\\" + args.board_name + "AnswerKey.txt", 'w')
+
+    board.write(args.board_name + " - (RSA Size of " + str(bingo_range[0]) + " to " + str(bingo_range[len(bingo_range)-1]) + ")" + '\n' + '\n')
+    boardAns.write(args.board_name + " Answer Key" + " - (RSA Size of " + str(bingo_range[0]) + " to " + str(bingo_range[len(bingo_range)-1]) + ")" + '\n' + '\n')
 
     for c in bingo_chars:
         spacers = 10
@@ -49,21 +65,24 @@ if __name__ == "__main__":
             while rand in used_nums:
                 rand = random.randint(lower, upper)
             used_nums.append(rand)
-            (pubkey, privkey) = rsa.newkeys(args.rsa_size)
-            crypto = rsa.encrypt(chr(rand).encode('utf8'), pubkey)
+            rsa_size = bingo_range[random.randint(0, len(bingo_range) - 1)]
+            (pubkey, privkey) = rsa.newkeys(rsa_size)
+            crypto = pow(rand, privkey.e, privkey.n)
             board.write("Position On Board: " + c + "," + str(n + 1) + '\n')
+            board.write("RSA Size: " + str(rsa_size) + '\n')
             board.write("Encrypted Number: " + str(crypto) + '\n')
             board.write("n: " + str(privkey.n) + '\n')
             board.write("e: " + str(privkey.e) + '\n')
 
             boardAns.write(str("Position On Board: " + c + "," + str(n + 1)) + '\n')
+            boardAns.write("RSA Size: " + str(rsa_size) + '\n')
             boardAns.write("Encrypted Number: " + str(crypto) + '\n')
             boardAns.write("n: " + str(privkey.n) + '\n')
             boardAns.write("e: " + str(privkey.e) + '\n')
             boardAns.write("p: " + str(privkey.p) + '\n')
             boardAns.write("q: " + str(privkey.q) + '\n')
             boardAns.write("d: " + str(privkey.d) + '\n')
-            boardAns.write("Decrypted Number: " + str(ord(rsa.decrypt(crypto, privkey).decode('utf8'))) + '\n')
+            boardAns.write("Decrypted Number: " + str(pow(crypto, privkey.d, privkey.n)) + '\n')
 
             board.write('\n')
             boardAns.write('\n')
