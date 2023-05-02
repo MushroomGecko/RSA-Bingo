@@ -14,7 +14,11 @@ if __name__ == "__main__":
     parser.add_argument("--rsa-size", type=int, required=True, help="RSA encryption size")
     args = parser.parse_args()
 
-    bingo_range = [80, 90, 100, 110, 120]
+    bingo_range = []
+    if args.rsa_size == 0:
+        bingo_range = [80, 90, 100, 110, 120]
+    else:
+        bingo_range = [args.rsa_size]
     bingo_chars = ['B', 'I', 'N', 'G', 'O']
     board_size = 5
     used_nums = [1]
